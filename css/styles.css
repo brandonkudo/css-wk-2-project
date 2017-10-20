@@ -7,14 +7,20 @@ body {
 
 .larger-box {
   background-color: black;
-  height: 50vh;
+  height: 55vh;
+  margin-bottom: 2vh;
+  width: 100%;
 }
 
 .smaller-box {
   background-color: white;
-  height: 25vh;
+  height: 20vh;
+  margin-bottom: 2vh;
+  width: 100%;
 }
 
-.s12 #box1 {
-  height: 25vh;
+@media screen and (min-width: 601px) and (max-width: 993px) {
+  .smaller-box {
+    height: 45vh;
+  }
 }
